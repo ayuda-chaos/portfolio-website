@@ -643,3 +643,12 @@ form .btn2{
   margin-top: -40px;
   display: block;
 }
+@media screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+  .about-col-1,
+  .about-col-2 {
+    width: 100%;
+  }
+}
